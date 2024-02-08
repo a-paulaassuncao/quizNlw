@@ -1,93 +1,93 @@
 const perguntas = [
     {
-        pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+        pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
         respostas: [
-            "let variavel = 10;",
-            "variable x = 10;",
-            "const 123 = 10;",
+            "A) Determinar se uma variável é verdadeira ou falsa",
+            "B) Retornar o tipo de dados de uma variável",
+            "C) Concatenar strings",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "O que o método 'parseInt()' faz em JavaScript?",
+        respostas: [
+            "A) Arredonda um número para o inteiro mais próximo",
+            "B) Converte uma string para um número inteiro",
+            "C) Retorna a parte decimal de um número",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
+        respostas: [
+            "A) let",
+            "B) const",
+            "C) var",
         ],
         correta: 0
     },
     {
-        pergunta: "Como você adiciona um comentário de linha em JavaScript?",
+        pergunta: "O que o método 'map()' faz em JavaScript?",
         respostas: [
-            "// Este é um comentário",
-            "/* Este é um comentário */",
-            "' Este é um comentário",
+            "A) Cria um novo array com o resultado da chamada de uma função para cada elemento do array",
+            "B) Filtra os elementos de um array de acordo com uma função de teste",
+            "C) Retorna o primeiro elemento que satisfaz a condição especificada",
         ],
         correta: 0
     },
     {
-        pergunta: "Qual dos seguintes métodos converte uma string para um número inteiro em JavaScript?",
+        pergunta: "Qual é a função do operador '===' em JavaScript?",
         respostas: [
-            "parseInt()",
-            "parseFloat()",
-            "toInteger()",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Como você verifica se uma variável é do tipo string em JavaScript?",
-        respostas: [
-            "typeof variable === 'string'",
-            "variable instanceof String",
-            "variable.isString()",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
-        respostas: [
-            "'==' compara apenas valores, '===' compara valores e tipos de dados",
-            "'===' compara apenas valores, '==' compara valores e tipos de dados",
-            "Não há diferença, ambos fazem a mesma coisa",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "O que o método 'forEach()' faz em JavaScript?",
-        respostas: [
-            "Itera sobre os elementos de um array",
-            "Remove o último elemento de um array",
-            "Adiciona um elemento no início de um array",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a função do operador '&&' em JavaScript?",
-        respostas: [
-            "Operador lógico AND",
-            "Operador lógico OR",
-            "Operador de concatenação de strings",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Como você cria uma função em JavaScript?",
-        respostas: [
-            "function minhaFuncao() {}",
-            "let minhaFuncao = function() {}",
-            "ambas as opções estão corretas",
+            "A) Comparação de valores",
+            "B) Atribuição",
+            "C) Comparação de valores e tipos",
         ],
         correta: 2
     },
     {
-        pergunta: "O que é o DOM em JavaScript?",
+        pergunta: "Qual é o resultado da expressão '3 + 2 + '5' em JavaScript?",
         respostas: [
-            "Document Object Model - uma representação da estrutura de um documento HTML/XML",
-            "Data Object Model - uma forma de armazenar dados",
-            "Digital Output Module - uma saída digital em hardware",
+            "A) '35'",
+            "B) 10",
+            "C) 75",
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é a diferença entre 'var', 'let' e 'const' na declaração de variáveis?",
+        pergunta: "Qual é a saída do código 'console.log(typeof 42)' em JavaScript?",
         respostas: [
-            "'var' tem escopo de função, 'let' e 'const' têm escopo de bloco",
-            "'let' tem escopo de bloco, 'var' e 'const' têm escopo de função",
-            "'const' cria uma constante imutável, enquanto 'let' e 'var' são mutáveis",
+            "A) 'undefined'",
+            "B) 'number'",
+            "C) 'string'",
         ],
-        correta: 0
+        correta: 1
+    },
+    {
+        pergunta: "O que o método 'push()' faz em JavaScript?",
+        respostas: [
+            "A) Inverte a ordem dos elementos de um array",
+            "B) Remove o último elemento de um array",
+            "C) Adiciona um ou mais elementos ao final de um array e retorna o novo comprimento do array",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é a forma correta de escrever um comentário de uma linha em JavaScript?",
+        respostas: [
+            "A) <!-- comentário -->",
+            "B) /* comentário */",
+            "C) // comentário",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que o método 'slice()' faz em JavaScript?",
+        respostas: [
+            "A) Remove o último elemento de um array",
+            "B) Retorna uma cópia de uma parte do array dentro de um novo array selecionado de 'inicio' até 'fim' (fim não é incluído)",
+            "C) Transforma os elementos de um array em uma única string",
+        ],
+        correta: 1
     },
 ];
 
