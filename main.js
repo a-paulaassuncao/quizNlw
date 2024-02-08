@@ -74,7 +74,7 @@ const perguntas = [
     {
         pergunta: "O que é o DOM em JavaScript?",
         respostas: [
-            "Document Object Model - estrutura de um documento HTML/XML",
+            "Document Object Model - uma representação da estrutura de um documento HTML/XML",
             "Data Object Model - uma forma de armazenar dados",
             "Digital Output Module - uma saída digital em hardware",
         ],
